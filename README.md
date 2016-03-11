@@ -32,3 +32,18 @@ by suggesting the pilot with airports.
  Real-time statistics like Arrivals and departure delays can change dynamically. 
 This part is also trivial complexity in consideration to time.
 
+Update/Improvements as per 3/11/2016:
+I have done few improvements to the GUI web page. I am able to locate the current location of the plane using the browser ‘navigator.geolocation.getCurrentPosition’ (may contain glitches so took static values). I have taken default static value for plane and tried to find the nearest available airport and it worked. I implemented the code in using Java Script (Refer Script.js file) and Google APIs.
+
+Implementation Steps:
+1.	Collected airport data and current plane data into file called airportdata.js
+2.	Assigned all the airports with color icon like “green, Yellow, Orange and Red” based on several factors like Average on-time arrival time, Average on-time departure time and cumulative Average on-time based on flights the airport has.
+3.	As we have current location of plane, based on the Geo-location (Latitude and Longitude) of nearest airport which are in “Green” indicator are suggested to the pilot.
+
+Improvements:
+•	Backend Database to store instead of static Airport and current plane locations
+•	AJAX calls to make web page more responsive
+•	REST APIs in node.js with MangoDB would help build robust application
+•	Angular JS and Boostrap to make more colorful.
+
+
