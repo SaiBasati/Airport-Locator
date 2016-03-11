@@ -13,6 +13,18 @@
 //------- Sai -------
 
 var airportData = [
+	//Current Plane Location
+  {
+    "aper": 0,
+    "code": "Plane location",
+    "dper": 0,
+    "airport": "Current",
+    "aop": 0,
+	"lat": 41.3639472,
+	 "dop": 0,
+	 "lng": -110.9289375
+  },
+  
   {
     "aper": 87.1,
     "code": "ABR",
