@@ -1,0 +1,15 @@
+Problem:
+
+Build a flight schedule where we can identify a closest airport for a plane to land.A plane is in the air. 
+The pilot contacts this program and ask for the closest airport in the area where it can land.
+
+Solution:
+
+Use cases: 
+  1. location: latitutde and lonitude
+  2. avilability of airport
+  3. Distance plane wrt airport
+
+Multiple Planes (LRU-least recently used)
+  1. queue for the requests 
+  2. hashmap
